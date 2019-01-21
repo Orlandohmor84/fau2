@@ -5,16 +5,16 @@ body {
     color: #333;
 }
 .btn-primary, .btn-primary:hover {
-    background-color: #bbff33;
-    border-color: #bbff33;
+    background-color: #b4cc95;
+    border-color: #b4cc95;
     color: #333;
 }
 header h3 {
-    color: orange;
+    color: #f6a01a;
     text-shadow: 3px 3px 1.5px #333;
 }
 .green {
-    color: #bbff33;
+    color: #b4cc95;
 }
 .mastfoot, .mastfoot a {
     color: #333;
