@@ -3,14 +3,13 @@
 ## What is this repository for ##
 
 * FAU Booth Email Signup Raffle Giveaway
-* Version 0.0
+* Version 1.0
 
 ## How do I get set up ##
 
-* Clone repo to start [https://bitbucket.org/Orlandohmor/solutions.git](https://bitbucket.org/Orlandohmor/solutions.git)
-* Install dependencies
-* Development - Checkout from stage. Create new branch. Code. Run default Gulp task. Test.
-* Deployment -  Run Gulp build script. Push. Merge with stage. Stage to be merged with Master when all commits ready for release. Semantic version control with tags using major.minor.patch methodology. FTP.
+* Clone repo to start [https://github.com/Orlandohmor84/fau2.git](https://github.com/Orlandohmor84/fau2.git)
+* Development - Figure it out.
+* Deployment -  Push to origin mster branch.
 
 ## Dependencies ##
 
@@ -18,12 +17,11 @@
 
 * jQuery
 * Bootstrap 4
-* Font Awesome
 * MailChimp
 
 ## Release History ##
 
-* v1.0.0 - 03/25/2017 - Initial Release!
+* v1.0.0 - 01/21/2019 - Initial Release!
 
 ## Licenses ##
 
