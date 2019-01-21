@@ -1,59 +1,55 @@
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.5">
-    <title>Cover Template · Bootstrap</title>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Smart for Life FAU Raffle Giveaway">
+        <meta name="author" content="Orlando Morales">
+        <title>Smart for Life FAU Raffle Giveaway</title>
 
-    <!-- Bootstrap core CSS -->
-<link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="assets/css/cover.css" rel="stylesheet">
-  </head>
-  <body class="text-center">
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap-v4.2.1/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/cover.css" rel="stylesheet">
+        <link href="assets/css/custom.css" rel="stylesheet">
+</head>
+<body class="text-center">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="masthead mb-auto">
-    <div class="inner">
-      <h3 class="masthead-brand">Cover</h3>
-      <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Contact</a>
-      </nav>
-    </div>
-  </header>
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <div class="masthead-brand"><img class="img-fluid" src="assets/img/logo.png" alt="Smart for Life"></div>
+                <div class="justify-content-center" id="title">
+                    <h1><span class="green">FAU</span> Raffle Giveaway</h1>
+                    <h3>$250 Total Prize Value</h3>
+                </div>
+            </div><!-- /.inner -->
+        </header>
 
-  <main role="main" class="inner cover">
-    <h1 class="cover-heading">Cover your page.</h1>
-    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-    <p class="lead">
-      <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-    </p>
-  </main>
+        <main role="main" class="inner cover">
+            <form>
+                <div class="form-group">
+                    <label for="firstname">First Name</label>
+                    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Enter first name">
+                </div><!-- /.form-group -->
+                <div class="form-group">
+                    <label for="lastname">First Name</label>
+                    <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Enter last name">
+                </div><!-- /.form-group -->
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+                </div><!-- /.form-group -->
+                <small>By entering raffle, you agree to ocassionally receive emails with exclusive special offers and promotions.</small>
+                <br><br>
+                <button type="submit" class="btn btn-primary">Enter Raffle</button>
+              </form>
+        </main>
 
-  <footer class="mastfoot mt-auto">
-    <div class="inner">
-      <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+            <p>Copyright &copy; 2019 <a href="https://shop.smartforlife.com/">Smart forLife</a></p>
+            </div>
+        </footer>
     </div>
-  </footer>
-</div>
 </body>
 </html>

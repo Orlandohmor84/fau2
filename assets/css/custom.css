@@ -1,0 +1,29 @@
+body {
+    background-image:url('../img/SFL-Younger-Market-Contest.jpg');
+    background-color: #fff;
+    background-size: cover;
+    color: #333;
+}
+.btn-primary, .btn-primary:hover {
+    background-color: #bbff33;
+    border-color: #bbff33;
+    color: #333;
+}
+header h3 {
+    color: orange;
+    text-shadow: 3px 3px 1.5px #333;
+}
+.green {
+    color: #bbff33;
+}
+.mastfoot, .mastfoot a {
+    color: #333;
+}
+@media only screen and (min-width:768px){
+    header h3 {
+        text-shadow: 1px 1px 0.5px #333;
+    }
+    #title {
+        padding-top: 20px;
+    }
+}
